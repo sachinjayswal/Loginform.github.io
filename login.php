@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Login</title>
+    <link rel="stylesheet" href="login.css">
+    <link href="//db.onlinewebfonts.com/c/56e51b15f9bcb363331159989c474c45?family=TradeGothicforNike365-BdCn" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+    <main>
+        <div class="background">
+            <div class="text">
+                <h1>Login</h1>
+                <p>No Account? <a href="reg.php">Sign up</a></p>
+            </div>
+            <div class="box">
+                <form class="form" action="logininsert.php" method="post">
+                    <input type="mail" class="mail" name="mail" placeholder="Email Address" required>
+                    <input type="password" class="password" name="pswd" placeholder="Password" required>
+                    <input type="submit" class="button" value="Login">
+                </form>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
